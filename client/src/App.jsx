@@ -19,9 +19,9 @@ import UnauthPage from "./pages/unauth-page";
 //import { useEffect } from "react";
 //import { checkAuth } from "./store/auth-slice";
 //import { Skeleton } from "@/components/ui/skeleton";
-import PaymentSuccessPage from "./pages/shopping-view/payment-success";
-import OrderSuccessPage from "./pages/shopping-view/order-success";
-import SearchProducts from "./pages/shopping-view/search";
+//import PaymentSuccessPage from "./pages/shopping-view/payment-success";
+//import OrderSuccessPage from "./pages/shopping-view/order-success";
+//import SearchProducts from "./pages/shopping-view/search";
 
 function App() {
   return (
