@@ -5,7 +5,7 @@ import AuthRegister from "./pages/auth/register";
 import AdminLayout from "./components/admin-view/layout";
 import AdminDashboard from "./pages/admin-view/dashboard";
 import AdminProducts from "./pages/admin-view/products";
-//import AdminOrders from "./pages/admin-view/orders";
+import AdminOrders from "./pages/admin-view/orders";
 //import AdminFeatures from "./pages/admin-view/features";
 //import ShoppingLayout from "./components/shopping-view/layout";
 import NotFound from "./pages/not-found";
@@ -73,6 +73,7 @@ function App() {
           
         <Route path="dashboard" element={<AdminDashboard />} />
         <Route path="products" element={<AdminProducts />} />
+        <Route path="orders" element={<AdminOrders />} />
         </Route>
 
         <Route
@@ -87,7 +88,7 @@ function App() {
          <Route path="listing" element={<ShoppingListing />} />
          <Route path="account" element={<ShoppingAccount />} />
          <Route path="search" element={<SearchProducts />} />
-         <Route path="search" element={<SearchProducts />} />
+         
         </Route>
         <Route path="/unauth-page" element={<UnauthPage />} />
         <Route path="*" element={<NotFound />} />
