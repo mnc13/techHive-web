@@ -58,13 +58,13 @@ import { View } from "lucide-react";
 
 const categoriesWithIcon = [
   { id: "drones", label: "Drones", icon: Waypoints },
-  { id: "dslr_cameras", label: "Cameras-DSLR", icon: Aperture },
-  { id: "vintage_cameras", label: "Cameras-Vintage", icon: Film },
-  { id: "digital_cameras", label: "Cameras-Digital", icon: Camera },
-  { id: "laptops_gaming", label: "Laptops-Gaming", icon: Laptop },
-  { id: "laptops_professional", label: "Laptops-Professional Use", icon: LaptopMinimal },
-  { id: "laptops_personal", label: "Laptops-Personal Use", icon: Computer },
-  { id: "keyboards", label: "Keyboards", icon: Keyboard },
+  { id: "dslr_cameras", label: "DSLR", icon: Aperture },
+  { id: "vintage_cameras", label: "Vintage Camera", icon: Film },
+  { id: "digital_cameras", label: "Digital Camera", icon: Camera },
+  { id: "laptops_gaming", label: "Gaming Laptop", icon: Laptop },
+  { id: "laptops_professional", label: "Professional Laptop", icon: LaptopMinimal },
+  { id: "laptops_personal", label: "Casual Laptop", icon: Computer },
+  { id: "keyboards", label: "Keyboard", icon: Keyboard },
   { id: "mouse", label: "Mouse", icon: Mouse },
 ];
 const brandsWithIcon = [
@@ -216,7 +216,7 @@ function ShoppingHome() {
         </Button>
       </div>
       */
-      <div className="flex flex-col min-h-screen">
+      <div className="flex flex-col min-h-screen" style={{ backgroundColor: '#a4d2fc' }}>
       {/* Banner Section */}
       <div className="relative w-full h-[600px] overflow-hidden">
         {slides.map((slide, index) => (
